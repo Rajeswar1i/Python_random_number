@@ -8,7 +8,7 @@ secret_number = random.randint(1, 100)
 attempts = 0
 
 while True:
-    try:
+    try
         guess = int(input("Enter your guess: "))
         attempts += 1
 
@@ -20,7 +20,7 @@ while True:
             print("Too low! Try again.")
         elif guess > secret_number:
             print("Too high! Try again.")
-        else:
+        else
             print(f"🎉 Congratulations! You guessed it in {attempts} attempts.")
             break
 
